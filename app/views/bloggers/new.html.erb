@@ -1,0 +1,12 @@
+<%= form_for @blogger do |b| %>
+    <%= b.label :name %>
+    <%= b.text_area :name %><br>
+
+    <%= b.label :bio %>
+    <%= b.text_area :bio %><br>
+
+    <%= b.label :age %>
+    <%= b.text_area :age %><br>
+
+    <%= b.submit %>
+<% end %>

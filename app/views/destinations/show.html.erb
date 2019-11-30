@@ -1,0 +1,9 @@
+<h1>Destination: <%= @destination.name %></h1>
+<h2> Most Recent Posts: </h2>
+<ul>
+   <% @recent.each do |p| %>
+        <li> <%= p.title %>
+    <% end %>
+</ul>
+
+<h3> Average age of bloggers who wrote about <%= @destination.name %>: <%= @bloggers %>
